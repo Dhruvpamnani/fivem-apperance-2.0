@@ -121,17 +121,7 @@ Config.BarberShops = {
 
 Config.ClothingRooms = {
     [1] = {requiredJob = "police", coords = vector3(362.74, -1593.51, 25.45)},
-    [2] = {requiredJob = "ambulance", coords = vector3(298.8991, -598.097, 43.284)},
-	[3] = {requiredJob = "mechanic", coords = vector3(-602.45, -915.63, 23.89)},
-	[4] = {requiredJob = "vanilla", coords = vector3(105.3512, -1303.05, 28.793)},
-	
-    --[[[3] = {requiredJob = "ambulance", x = 1462.64, y = 693.23, z = 33.51, cameraLocation = {x = 1462.76, y = 695.59, z = 33.51, h = 175.01}},
-    [4] = {requiredJob = "police", x = 314.76, y = 671.78, z = 14.73, cameraLocation = {x = 317.62, y = 671.86, z = 14.73, h = 91.53}},
-    [5] = {requiredJob = "ambulance", x = 338.70, y = 659.61, z = 14.71, cameraLocation = {x = 339.27, y = 661.63, z = 14.71, h = 315.5}},    
-    [6] = {requiredJob = "doctor", x = 338.70, y = 659.61, z = 14.71, cameraLocation = {x = 339.27, y = 661.63, z = 14.71, h = 315.5}}, 
-	[7] = {requiredJob = "ambulance", x = -1098.45, y = 1751.71, z = 23.35, cameraLocation = {x = -1097.15, y = 1750.19, z = 23.35, h = 38.70}},    
-    [8] = {requiredJob = "doctor", x = -1098.45, y = 1751.71, z = 23.35, cameraLocation = {x = -1097.15, y = 1750.19, z = 23.35, h = 38.70}},
-	[9] = {requiredJob = "police", x = -77.59, y = -129.17, z = 5.03, cameraLocation = {x = -80.36, y = -130.76, z = 5.03, h = 300.44}},]]
+    [2] = {requiredJob = "ambulance", coords = vector3(298.8991, -598.097, 43.284)}
 }
 
 Config.Outfits = {
@@ -155,169 +145,7 @@ Config.Outfits = {
                     ["mask"]        = { item = 0, texture = 0},  -- Masker
                 },
             },
-            [2] = {
-                outfitLabel = "Agente",
-                outfitData = {
-                    ["arms"]        = { item = 0, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 66, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 28, texture = 1},  -- Jas / Vesten
-                    ["vest"]        = { item = 23, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 1, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 99, texture = 12},  -- Broek
-                    ["shoes"]       = { item = 48, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-			[3] = {
-                outfitLabel = "Agente Esperto",
-                outfitData = {
-                    ["arms"]        = { item = 0, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 66, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 28, texture = 2},  -- Jas / Vesten
-                    ["vest"]        = { item = 23, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 1, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 99, texture = 12},  -- Broek
-                    ["shoes"]       = { item = 48, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-			[4] = {
-                outfitLabel = "Detective",
-                outfitData = {
-                    ["arms"]        = { item = 0, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 66, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 28, texture = 15},  -- Jas / Vesten
-                    ["vest"]        = { item = 23, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 1, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 99, texture = 2},  -- Broek
-                    ["shoes"]       = { item = 48, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-			[5] = {
-                outfitLabel = "Sergente",
-                outfitData = {
-                    ["arms"]        = { item = 0, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 66, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 28, texture = 14},  -- Jas / Vesten
-                    ["vest"]        = { item = 23, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 1, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 99, texture = 2},  -- Broek
-                    ["shoes"]       = { item = 48, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-			[6] = {
-                outfitLabel = "Tenente",
-                outfitData = {
-                    ["arms"]        = { item = 0, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 66, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 28, texture = 16},  -- Jas / Vesten
-                    ["vest"]        = { item = 23, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 1, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 99, texture = 2},  -- Broek
-                    ["shoes"]       = { item = 48, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-			[7] = {
-                outfitLabel = "Vice Comandante",
-                outfitData = {
-                    ["arms"]        = { item = 4, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 66, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 27, texture = 7},  -- Jas / Vesten
-                    ["vest"]        = { item = 23, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 1, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 99, texture = 12},  -- Broek
-                    ["shoes"]       = { item = 48, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-			[8] = {
-                outfitLabel = "Comandante",
-                outfitData = {
-                    ["arms"]        = { item = 16, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 66, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 27, texture = 17},  -- Jas / Vesten
-                    ["vest"]        = { item = 23, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 1, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 99, texture = 2},  -- Broek
-                    ["shoes"]       = { item = 48, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-			[9] = {
-                outfitLabel = "Vice Capo",
-                outfitData = {
-                    ["arms"]        = { item = 0, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 66, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 27, texture = 18},  -- Jas / Vesten
-                    ["vest"]        = { item = 23, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 1, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 40, texture = 0},  -- Broek
-                    ["shoes"]       = { item = 10, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-			[10] = {
-                outfitLabel = "Capo",
-                outfitData = {
-                    ["arms"]        = { item = 0, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 66, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 27, texture = 19},  -- Jas / Vesten
-                    ["vest"]        = { item = 23, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 1, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 40, texture = 0},  -- Broek
-                    ["shoes"]       = { item = 10, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-        },
+		},
         ["female"] = {
             [1] = {
                 outfitLabel = "Recluta",
@@ -337,134 +165,9 @@ Config.Outfits = {
                     ["mask"]        = { item = 0, texture = 0},  -- Masker
                 },
             },
-            [2] = {
-                outfitLabel = "Agente",
-                outfitData = {
-                    ["arms"]        = { item = 14, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 8, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 50, texture = 1},  -- Jas / Vesten
-                    ["vest"]        = { item = 1, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 1, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 91, texture = 12},  -- Broek
-                    ["shoes"]       = { item = 38, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-			[3] = {
-                outfitLabel = "Agente Esperto",
-                outfitData = {
-                    ["arms"]        = { item = 14, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 8, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 50, texture = 2},  -- Jas / Vesten
-                    ["vest"]        = { item = 1, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 1, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 91, texture = 12},  -- Broek
-                    ["shoes"]       = { item = 38, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-			[4] = {
-                outfitLabel = "Detective",
-                outfitData = {
-                    ["arms"]        = { item = 14, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 8, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 160, texture = 0},  -- Jas / Vesten
-                    ["vest"]        = { item = 13, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 1, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 159, texture = 2},  -- Broek
-                    ["shoes"]       = { item = 38, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-			[5] = {
-                outfitLabel = "Sergente",
-                outfitData = {
-                    ["arms"]        = { item = 14, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 8, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 50, texture = 14},  -- Jas / Vesten
-                    ["vest"]        = { item = 1, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 91, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 91, texture = 1},  -- Broek
-                    ["shoes"]       = { item = 38, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-			[6] = {
-                outfitLabel = "Tenente",
-                outfitData = {
-                    ["arms"]        = { item = 14, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 8, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 50, texture = 15},  -- Jas / Vesten
-                    ["vest"]        = { item = 1, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 91, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 159, texture = 1},  -- Broek
-                    ["shoes"]       = { item = 38, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-			[7] = {
-                outfitLabel = "Vice Comandante",
-                outfitData = {
-                    ["arms"]        = { item = 9, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 8, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 50, texture = 6},  -- Jas / Vesten
-                    ["vest"]        = { item = 0, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 91, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 159, texture = 12},  -- Broek
-                    ["shoes"]       = { item = 38, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-			[8] = {
-                outfitLabel = "Capo",
-                outfitData = {
-                    ["arms"]        = { item = 14, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 9, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 50, texture = 16},  -- Jas / Vesten
-                    ["vest"]        = { item = 45, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = -1, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 28, texture = 15},  -- Broek
-                    ["shoes"]       = { item = 43, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Maskers
-                },
-            },
-        },
-    },
+		},
+	},
+	
     ["ambulance"] = {
         ["male"] = {
             [1] = {
@@ -485,78 +188,6 @@ Config.Outfits = {
                     ["mask"]        = { item = 0, texture = 0},  -- Masker
                 },
             },
-            [2] = {
-                outfitLabel = "Tirocinio con borsa",
-                outfitData = {
-                    ["pants"]       = { item = 32, texture = 0 },  -- Broek
-                    ["arms"]        = { item = 89, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
-                    ["vest"]        = { item = 0, texture = 0},  -- Body Vest
-                    ["torso2"]      = { item = 439, texture = 0},  -- Jas / Vesten
-                    ["shoes"]       = { item = 83, texture = 22},  -- Schoenen
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    ["accessory"]   = { item =151, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 60, texture = 25},  -- Tas
-                    ["hat"]         = { item = -1, texture = 0},  -- Pet
-                    ["glass"]       = { item = 0, texture = 0},  -- Bril
-					--["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-			[3] = {
-                outfitLabel = "Medico",
-                outfitData = {
-                    ["pants"]       = { item = 32, texture = 0},  -- Broek
-                    ["arms"]        = { item = 89, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
-                    ["vest"]        = { item = 0, texture = 0},  -- Body Vest
-                    ["torso2"]      = { item = 56, texture = 6},  -- Jas / Vesten
-                    ["shoes"]       = { item = 83, texture = 55},  -- Schoenen
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    ["accessory"]   = { item = 54, texture = 2},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = -1, texture = 0},  -- Pet
-                    ["glass"]       = { item = 0, texture = 0},  -- Bril
-					--["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-			},
-			[4] = {
-                outfitLabel = "Medico con borsa",
-                outfitData = {
-                    ["pants"]       = { item = 32, texture = 0},  -- Broek
-                    ["arms"]        = { item = 89, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
-                    ["vest"]        = { item = 0, texture = 0},  -- Body Vest
-                    ["torso2"]      = { item = 56, texture = 6},  -- Jas / Vesten
-                    ["shoes"]       = { item = 83, texture = 22},  -- Schoenen
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    ["accessory"]   = { item = 54, texture = 2},  -- Nek / Das
-                    ["bag"]         = { item = 60, texture = 25},  -- Tas
-                    ["hat"]         = { item = -1, texture = 0},  -- Pet
-                    ["glass"]       = { item = 0, texture = 0},  -- Bril
-					--["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-            [5] = {
-                outfitLabel = "Chirurgo",
-                outfitData = {
-                    ["pants"]       = { item = 34, texture = 0},  -- Broek
-                    ["arms"]        = { item = 4, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 40, texture = 0},  -- T Shirt
-                    ["vest"]        = { item = 0, texture = 0},  -- Body Vest
-                    ["torso2"]      = { item = 203, texture = 0},  -- Jas / Vesten
-                    ["shoes"]       = { item = 10, texture = 0},  -- Schoenen
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    ["accessory"]   = { item =150, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item =0, texture = 0},  -- Tas
-                    ["hat"]         = { item = -1, texture = 0},  -- Pet
-                    ["glass"]       = { item = 0, texture = 0},  -- Bril
-					--["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
         },
         ["female"] = {
             [1] = {
@@ -577,180 +208,249 @@ Config.Outfits = {
                     ["mask"]        = { item = 0, texture = 0},  -- Masker
                 },
             },
-            [2] = {
-                outfitLabel = "Tirocinio con borsa",
-                outfitData = {
-                    ["pants"]       = { item = 3, texture = 7},  -- Broek
-                    ["arms"]        = { item = 113, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
-                    ["vest"]        = { item = 0, texture = 0},  -- Body Vest
-                    ["torso2"]      = { item = 42, texture = 1},  -- Jas / Vesten
-                    ["shoes"]       = { item = 94, texture = 15},  -- Schoenen
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    ["accessory"]   = { item = 107, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 60, texture = 25},  -- Tas
-                    ["hat"]         = { item = -1, texture = 0},  -- Pet
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-					--["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-            [3] = {
-                outfitLabel = "Medico",
-                outfitData = {
-                    ["pants"]       = { item = 3, texture = 7},  -- Broek
-                    ["arms"]        = { item = 113, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
-                    ["vest"]        = { item = 0, texture = 0},  -- Body Vest
-                    ["torso2"]      = { item = 42, texture = 1},  -- Jas / Vesten
-                    ["shoes"]       = { item = 94, texture = 15},  -- Schoenen
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    ["accessory"]   = { item = 24, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = -1, texture = 0},  -- Pet
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-					--["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-            [4] = {
-                outfitLabel = "Medico con borsa",
-                outfitData = {
-                    ["pants"]       = { item = 3, texture = 7},  -- Broek
-                    ["arms"]        = { item = 113, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
-                    ["vest"]        = { item = 0, texture = 0},  -- Body Vest
-                    ["torso2"]      = { item = 42, texture = 1},  -- Jas / Vesten
-                    ["shoes"]       = { item = 94, texture = 15},  -- Schoenen
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    ["accessory"]   = { item = 24, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 60, texture = 25},  -- Tas
-                    ["hat"]         = { item = -1, texture = 0},  -- Pet
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-					--["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-			[5] = {
-                outfitLabel = "Chirurgo",
-                outfitData = {
-                    ["pants"]       = { item = 3, texture = 15},  -- Broek
-                    ["arms"]        = { item = 102, texture = 1},  -- Armen
-                    ["t-shirt"]     = { item = 64, texture = 4},  -- T Shirt
-                    ["vest"]        = { item = 0, texture = 0},  -- Body Vest
-                    ["torso2"]      = { item = 219, texture = 0},  -- Jas / Vesten
-                    ["shoes"]       = { item = 94, texture = 15},  -- Schoenen
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    ["accessory"]   = { item = 24, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = -1, texture = 0},  -- Pet
-                    ["glass"]       = { item = 5, texture = 0},  -- Bril
-					--["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
         },
     },
-	["mechanic"] = {
-        ["male"] = {
-            [1] = {
-                outfitLabel = "Meccanico Maglia Bianca",
-                outfitData = {
-                    ["pants"]       = { item = 110, texture = 13},  -- Broek
-                    ["arms"]        = { item = 16, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 97, texture = 0},  -- T Shirt
-                    ["vest"]        = { item = 0, texture = 0},  -- Body Vest
-                    ["torso2"]      = { item = 144, texture = 0},  -- Jas / Vesten
-                    ["shoes"]       = { item = 49, texture = 0},  -- Schoenen
-					--["decals"]      = { item = 0, texture = 0},  -- Decals
-                    ["accessory"]   = { item = 0, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 9, texture = 6},  -- Pet
-                    ["glass"]       = { item = 0, texture = 0},  -- Bril
-					--["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-            [2] = {
-                outfitLabel = "Meccanico Maglia Rossa",
-                outfitData = {
-                    ["pants"]       = { item = 110, texture = 23},  -- Broek
-                    ["arms"]        = { item = 4, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 97, texture = 0},  -- T Shirt
-                    ["vest"]        = { item = 46, texture = 0},  -- Body Vest
-                    ["torso2"]      = { item = 153, texture = 0},  -- Jas / Vesten
-                    ["shoes"]       = { item = 87, texture = 4},  -- Schoenen
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    ["accessory"]   = { item = 0, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["glass"]       = { item = 0, texture = 0},  -- Bril
-					--["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-		},
-        ["female"] = {
-            [1] = {
-                outfitLabel = "Meccanico",
-                outfitData = {
-                    ["arms"]        = { item = 15, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 161, texture = 0},  -- Jas / Vesten
-                    ["vest"]        = { item = 0, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 0, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 55, texture = 1},  -- Broek
-                    ["shoes"]       = { item = 38, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 0, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-        },
-    },
-	["vanilla"] = {
-        ["male"] = {
-            [1] = {
-                outfitLabel = "Bodyguard",
-                outfitData = {
-                    ["pants"]       = { item = 23, texture = 0},  -- Broek
-                    ["arms"]        = { item = 1, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
-                    ["vest"]        = { item = 0, texture = 0},  -- Body Vest
-                    ["torso2"]      = { item = 336, texture = 24},  -- Jas / Vesten
-                    ["shoes"]       = { item = 35, texture = 0},  -- Schoenen
-					--["decals"]      = { item = 0, texture = 0},  -- Decals
-                    ["accessory"]   = { item = 0, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    --["hat"]         = { item = -1, texture = 0},  -- Pet
-                    ["glass"]       = { item = 0, texture = 0},  -- Bril
-					--["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-		},
-        ["female"] = {
-            [1] = {
-                outfitLabel = "Boh",
-                outfitData = {
-                    ["arms"]        = { item = 15, texture = 0},  -- Armen
-                    ["t-shirt"]     = { item = 14, texture = 0},  -- T Shirt
-                    ["torso2"]      = { item = 161, texture = 0},  -- Jas / Vesten
-                    ["vest"]        = { item = 0, texture = 0},  -- Body Vest
-                    --["decals"]      = { item = 0, texture = 0},  -- Decals
-                    --["accessory"]   = { item = 0, texture = 0},  -- Nek / Das
-                    ["bag"]         = { item = 0, texture = 0},  -- Tas
-                    ["hat"]         = { item = 0, texture = 0},  -- Pet
-                    ["pants"]       = { item = 40, texture = 1},  -- Broek
-                    ["shoes"]       = { item = 40, texture = 0},  -- Schoenen
-                    ["glass"]       = { item = 0, texture = 0},  -- Bril
-                    --["ear"]         = { item = 0, texture = 0},  -- Oor accessoires
-                    ["mask"]        = { item = 0, texture = 0},  -- Masker
-                },
-            },
-        },
-    },
+}
+
+Config.PedQube = {
+	[1] = {
+		["nome"] = "pedclothing10",
+        ["coordinate"] = vector3(427.0880, -805.900, 28.491), --215
+		["heading"] = 94.49, --direzione ped
+		["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[2] = {
+		["nome"] = "pedclothing11",
+        ["coordinate"] = vector3(73.86779, -1392.99, 28.376), --134
+		["heading"] = 274.8, --direzione ped
+        ["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[3] = {
+        ["nome"] = "pedclothing12",
+		["coordinate"] = vector3(126.6333, -225.045, 53.557), --583
+		["heading"] = 221.5, --direzione ped
+		["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[4] = {
+        ["nome"] = "pedclothing13",
+		["coordinate"] = vector3(-164.627, -301.921, 38.733), --539
+		["heading"] = 249.9, --direzione ped
+		["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[5] = {
+        ["nome"] = "pedclothing14",
+		["coordinate"] = vector3(-708.208, -152.955, 36.415), --696
+		["heading"] = 116.1, --direzione ped
+		["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[6] = {
+        ["nome"] = "pedclothing15",
+		["coordinate"] = vector3(-1449.71, -238.977, 48.813), --644
+		["heading"] = 49.51, --direzione ped
+		["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[7] = {
+        ["nome"] = "pedclothing16",
+		["coordinate"] = vector3(-1193.21, -766.425, 16.316), --342
+		["heading"] = 219.9, --direzione ped
+		["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[8] = {
+        ["nome"] = "pedclothing17",
+		["coordinate"] = vector3(-823.166, -1072.28, 10.328), --354
+		["heading"] = 221.6, --direzione ped
+		["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[9] = {
+        ["nome"] = "pedclothing18",
+		["coordinate"] = vector3(-1206.36, -1457.99, 3.3487), --307
+		["heading"] = 36.66, --direzione ped
+		["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[10] = {
+		["nome"] = "pedclothing19",
+        ["coordinate"] = vector3(-3169.77, 1042.293, 19.863), --908
+		["heading"] = 61.47, --direzione ped
+		["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[11] = {
+		["nome"] = "pedclothing20",
+        ["coordinate"] = vector3(612.9566, 2763.617, 41.088), --930
+		["heading"] = 274.6, --direzione ped
+		["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[12] = {
+		["nome"] = "pedclothing21",
+        ["coordinate"] = vector3(1196.610, 2711.712, 37.222), --940
+		["heading"] = 178.4, --direzione ped
+		["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[13] = {
+        ["coordinate"] = vector3(1695.368, 4823.105, 41.063), --2014
+		["heading"] = 99.91, --direzione ped
+		["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[14] = {
+		["nome"] = "pedclothing22",
+        ["coordinate"] = vector3(5.868691, 6511.372, 30.877), --3024
+		["heading"] = 42.43, --direzione ped
+		["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[15] = {
+		["nome"] = "pedclothing23",
+        ["coordinate"] = vector3(4495.485, -4452.16, 3.3664), --cayo perico
+		["heading"] = 209.2, --direzione ped
+		["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[16] = {
+		["nome"] = "pedclothing24",
+        ["coordinate"] = vector3(-1102.50, 2711.632, 18.107), --cayo perico
+		["heading"] = 220.8, --direzione ped
+		["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	----barber
+	[17] = {
+		["nome"] = "pedclothing25",
+        ["coordinate"] = vector3(922.7774, 21.39071, 70.833), --dove deve spawnare il ped vector3
+		["heading"] = 287.1, --direzione ped
+		["modello"] = "ig_miguelmadrazo",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[18] = {
+		["nome"] = "pedclothing26",
+        ["coordinate"] = vector3(136.8038, -1708.44, 28.291), --129
+		["heading"] = 137.8, --direzione ped
+		["modello"] = "s_f_y_clubbar_02",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[19] = {
+		["nome"] = "pedclothing27",
+        ["coordinate"] = vector3(-1282.60, -1116.80, 5.9938), --314
+		["heading"] = 138.6, --direzione ped
+		["modello"] = "s_f_y_clubbar_02",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[20] = {
+		["nome"] = "pedclothing28",
+        ["coordinate"] = vector3(1931.613, 3729.659, 31.844), --1033
+		["heading"] = 220.3, --direzione ped
+		["modello"] = "s_f_y_clubbar_02",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[21] = {
+		["nome"] = "pedclothing29",
+        ["coordinate"] = vector3(1212.713, -472.972, 65.207), --436
+		["heading"] = 78.45, --direzione ped
+		["modello"] = "s_f_y_clubbar_02",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[22] = {
+		["nome"] = "pedclothing30",
+        ["coordinate"] = vector3(-32.9359, -152.341, 56.076), --571
+		["heading"] = 340.4, --direzione ped
+		["modello"] = "s_f_y_clubbar_02",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[23] = {
+		["nome"] = "pedclothing31",
+        ["coordinate"] = vector3(-278.205, 6228.501, 30.695), --3012
+		["heading"] = 52.88, --direzione ped
+		["modello"] = "s_f_y_clubbar_02",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
+	[24] = {
+		["nome"] = "pedclothing32",
+        ["coordinate"] = vector3(-814.235, -183.812, 36.568), --682
+		["heading"] = 129.5, --direzione ped
+		["modello"] = "s_f_y_clubbar_02",
+		["dict"] = "anim@amb@nightclub@peds@", --catalogo animazione
+        ["anim"] = "rcmme_amanda1_stand_loop_cop", --tipo di animazione
+		["fisso"] = false, --se il ped deve spawnare o despawnare in base alla distanza
+        ["spawnato"] = false, --bool per controllare se il ped è già spawnato (non toccare se non sai quello che fai)
+	},
 }
