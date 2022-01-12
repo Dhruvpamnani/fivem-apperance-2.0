@@ -1,5 +1,15 @@
 CreateThread(function()
-	exports['qb-target']:AddTargetModel(`ig_miguelmadrazo`, {
+	Wait(1000)
+	for k, v in pairs(Config.PedQube) do
+		if Config.PedQube[k]["spawnato"] == false then
+			Config.PedQube[k]["spawnato"] = true
+			TriggerEvent('qube-creaped:client', Config.PedQube[k]["nome"], Config.PedQube[k]["coordinate"], Config.PedQube[k]["heading"], Config.PedQube[k]["modello"], Config.PedQube[k]["dict"], Config.PedQube[k]["anim"])
+		end
+	end
+end)
+
+CreateThread(function()
+	exports['qb-eyes']:AddTargetModel(`ig_miguelmadrazo`, {
 		options = {
 			{
 				event = "qb-clothes:clothingShop",
@@ -10,7 +20,7 @@ CreateThread(function()
 			distance = 2.5 
 	})
 
-	exports['qb-target']:AddTargetModel(`s_f_y_clubbar_02`, {
+	exports['qb-eyes']:AddTargetModel(`s_f_y_clubbar_02`, {
 		options = {
 			{
 				event = "qb-clothes:barberMenu",
